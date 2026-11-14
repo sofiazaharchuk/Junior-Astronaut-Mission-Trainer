@@ -28,7 +28,7 @@ Outpost Academy is a free browser game for kids aged 7-12. Each day the player s
 - NASA APOD via api.nasa.gov: picture of the day on the levels screen (live; only NASA-owned images are shown). https://apod.nasa.gov/apod/astropix.html
 - NASA Image and Video Library: photos for every level, shown with their credits. https://images.nasa.gov/
 - NASA Life Support Baseline Values and Assumptions (BVAD): ratios between air, water and food needs. https://ntrs.nasa.gov/
-- NASA OSDR search API: a card on the levels screen shows how many real NASA studies exist about bones in space, with links to the first three (live; the card is hidden if NASA does not answer, saved answer labelled not live). https://osdr.nasa.gov/bio/repo/
+- NASA OSDR search: a card on the levels screen shows how many real NASA studies exist about bones in space, with links to the first three. OSDR does not allow browsers to read its answers (CORS), so we saved a real answer with `npm run osdr`; the card says "From NASA records saved on <date>, not live". https://osdr.nasa.gov/bio/repo/
 - RadLab (radiation measured on the ISS) and Mars Trek (real Mars maps): fact cards with source links. https://osdr.nasa.gov/bio/repo/ , https://visualization.osdr.nasa.gov/radlab/ , https://trek.nasa.gov/mars/
 - NASA Perseverance MOXIE, NASA HRP distance hazard (message delay), NASA/JPL 2018 Mars dust storm, ISS ECLSS, Veggie: facts and Mars scenarios.
 

@@ -1,0 +1,19 @@
+{
+  "term": "bone",
+  "total": 67,
+  "studies": [
+    {
+      "id": "OSD-342",
+      "title": "Targeting myostatin/activin A protects against skeletal muscle and bone loss during spaceflight [plasma proteomics]"
+    },
+    {
+      "id": "OSD-18",
+      "title": "Microarray Profile of Gene Expression during Osteoclast Differentiation in Modeled Microgravity"
+    },
+    {
+      "id": "OSD-467",
+      "title": "Transcriptomic profiling of cortical bone from hindlimb unloaded mice"
+    }
+  ],
+  "fetchedAt": "2026-11-14"
+}

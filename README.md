@@ -217,7 +217,7 @@ All of them are disabled by Settings -> "Less motion" and by the system `prefers
 
 ## 5a. Phones: scale and overflow
 
-The viewport meta is `width=device-width, initial-scale=1`. If a page ever opens "too big" and needs pinch-zoom, something is wider than the screen. `index.css` clips horizontal overflow (`html, body, #root`) and lets grid children shrink (`min-width: 0`). To find a culprit on a real phone, open the site with `?debug=overflow` at the end of the URL (for example `https://.../Junior-Astronaut-Mission-Trainer/?debug=overflow`): every element wider than the screen gets a red outline and is listed at the bottom; send a screenshot.
+The viewport meta is `width=device-width, initial-scale=1`. If a page ever opens "too big" and needs pinch-zoom, something is wider than the screen. `index.css` clips horizontal overflow (`html, body, #root`) and lets grid children shrink (`min-width: 0`). To find a culprit on a real phone, open the site with `?debug=overflow` at the end of the URL (for example `https://.../TEST_NASA/?debug=overflow`): every element wider than the screen gets a red outline and is listed at the bottom; send a screenshot.
 
 ## 5b. Light / dark theme
 
