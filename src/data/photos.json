@@ -1,0 +1,191 @@
+{
+  "moon": {
+    "file": "moon.jpg",
+    "title": "Ready for a Close Up",
+    "credit": "Credit: NASA / JSC",
+    "nasa_id": "art002e009283",
+    "link": "https://images.nasa.gov/details/art002e009283"
+  },
+  "earth": {
+    "file": "earth.jpg",
+    "title": "Moon rise over the Earth",
+    "credit": "Credit: NASA / JSC",
+    "nasa_id": "STS102-324-028",
+    "link": "https://images.nasa.gov/details/STS102-324-028"
+  },
+  "solar": {
+    "file": "solar.jpg",
+    "title": "NASA’s Solar Dynamics Observatory Captured Trio of Solar Flares April 2-3",
+    "credit": "Credit: NASA / GSFC",
+    "nasa_id": "GSFC_20171208_Archive_e000104",
+    "link": "https://images.nasa.gov/details/GSFC_20171208_Archive_e000104"
+  },
+  "veggie": {
+    "file": "veggie.jpg",
+    "title": "Veggie Ponds experiment Initiation",
+    "credit": "Credit: David Saint-Jacques / JSC",
+    "nasa_id": "iss059e035668",
+    "link": "https://images.nasa.gov/details/iss059e035668"
+  },
+  "iss_water": {
+    "file": "iss_water.jpg",
+    "title": "Gorie watches water bubble in the MDDK during STS-123 / Expedition 16 Joint Operations",
+    "credit": "Credit: NASA / JSC",
+    "nasa_id": "s123e006145",
+    "link": "https://images.nasa.gov/details/s123e006145"
+  },
+  "mars": {
+    "file": "mars.jpg",
+    "title": "Mars 2020 Perseverance Rover Wheels",
+    "credit": "Credit: NASA JPL/Christian Mangano / KSC",
+    "nasa_id": "KSC-20200402-PH-JPL01_0002",
+    "link": "https://images.nasa.gov/details/KSC-20200402-PH-JPL01_0002"
+  },
+  "iss_cabin": {
+    "file": "iss_cabin.jpg",
+    "title": "NASA astronaut Anil Menon works inside the International Space Station's Kibo laboratory module",
+    "credit": "Credit: NASA / JSC",
+    "nasa_id": "iss075e0046813",
+    "link": "https://images.nasa.gov/details/iss075e0046813"
+  },
+  "moxie": {
+    "file": "moxie.jpg",
+    "title": "MOXIE All Tucked In",
+    "credit": "Credit: NASA/JPL-Caltech / JPL",
+    "nasa_id": "PIA24203",
+    "link": "https://images.nasa.gov/details/PIA24203"
+  },
+  "dsn": {
+    "file": "dsn.jpg",
+    "title": "Tracks of a Giant",
+    "credit": "Credit: NASA/JPL-Caltech / JPL",
+    "nasa_id": "PIA13277",
+    "link": "https://images.nasa.gov/details/PIA13277"
+  },
+  "aurora": {
+    "file": "aurora.jpg",
+    "title": "Earth observation taken using EHDC3",
+    "credit": "Credit: NASA / JSC",
+    "nasa_id": "iss059e013118",
+    "link": "https://images.nasa.gov/details/iss059e013118"
+  },
+  "artemis": {
+    "file": "artemis.jpg",
+    "title": "Artist’s Concept Portrays SpaceX’s Starship HLS with Raptor Engines for NASA Artemis",
+    "credit": "Credit: Photo courtesy SpaceX / MSFC",
+    "nasa_id": "11 04 24 hls 2 raptors",
+    "link": "https://images.nasa.gov/details/11 04 24 hls 2 raptors"
+  },
+  "solar_panels": {
+    "file": "solar_panels.jpg",
+    "title": "International Space Station (ISS)",
+    "credit": "Credit: NASA / MSFC",
+    "nasa_id": "0101424",
+    "link": "https://images.nasa.gov/details/0101424"
+  },
+  "mars_dust": {
+    "file": "mars_dust.jpg",
+    "title": "2018 Giant Dust Storm on Mars",
+    "credit": "Credit: NASA/JPL-Caltech/MSSS / JPL",
+    "nasa_id": "PIA22519",
+    "link": "https://images.nasa.gov/details/PIA22519"
+  },
+  "solar_storm": {
+    "file": "solar_storm.jpg",
+    "title": "CME Blow Out",
+    "credit": "Credit: NASA / GSFC",
+    "nasa_id": "cme-blow-out_18529951894_o",
+    "link": "https://images.nasa.gov/details/cme-blow-out_18529951894_o"
+  },
+  "moon_night": {
+    "file": "moon_night.jpg",
+    "title": "Saturn Apollo Program",
+    "credit": "Credit: NASA / MSFC",
+    "nasa_id": "6900593",
+    "link": "https://images.nasa.gov/details/6900593"
+  },
+  "iss_exercise": {
+    "file": "iss_exercise.jpg",
+    "title": "Kuipers exercises on the ARED in the Node 3",
+    "credit": "Credit: Andre Kuipers / JSC",
+    "nasa_id": "iss030e148403",
+    "link": "https://images.nasa.gov/details/iss030e148403"
+  },
+  "food_space": {
+    "file": "food_space.jpg",
+    "title": "Expedition 43 crew in Node 1 for meal time",
+    "credit": "Credit: NASA / JSC",
+    "nasa_id": "iss043e086137",
+    "link": "https://images.nasa.gov/details/iss043e086137"
+  },
+  "mars_orbit": {
+    "file": "mars_orbit.jpg",
+    "title": "Dark, Recurring Streaks on Walls of Garni Crater",
+    "credit": "Credit: NASA/JPL-Caltech/Univ. of Arizona / JPL",
+    "nasa_id": "PIA19917",
+    "link": "https://images.nasa.gov/details/PIA19917"
+  },
+  "mars_storm": {
+    "file": "mars_storm.jpg",
+    "title": "Last Images Opportunity Took",
+    "credit": "Credit: NASA/JPL-Caltech/Cornell/ASU / JPL",
+    "nasa_id": "PIA22930",
+    "link": "https://images.nasa.gov/details/PIA22930"
+  },
+  "mars_sunset": {
+    "file": "mars_sunset.jpg",
+    "title": "Phobos Passing Overhead",
+    "credit": "Credit: NASA/JPL-Caltech / JPL",
+    "nasa_id": "PIA17270",
+    "link": "https://images.nasa.gov/details/PIA17270"
+  },
+  "s_apollo": {
+    "file": "s_apollo.jpg",
+    "title": "A Mars Buggy and a Moon Buggy",
+    "credit": "Credit: NASA/JPL-Caltech / JPL",
+    "nasa_id": "PIA23041",
+    "link": "https://images.nasa.gov/details/PIA23041"
+  },
+  "s_earth": {
+    "file": "s_earth.jpg",
+    "title": "Powerful Auroras Found at Brown Dwarf",
+    "credit": "Credit: NASA / GSFC",
+    "nasa_id": "GSFC_20171208_Archive_e000673",
+    "link": "https://images.nasa.gov/details/GSFC_20171208_Archive_e000673"
+  },
+  "s_sun": {
+    "file": "s_sun.jpg",
+    "title": "2017 Total Solar Eclipse",
+    "credit": "Credit: NASA/Carla Thomas / AFRC",
+    "nasa_id": "AFRC2017-0233-009",
+    "link": "https://images.nasa.gov/details/AFRC2017-0233-009"
+  },
+  "s_mars": {
+    "file": "s_mars.jpg",
+    "title": "Looking Up at Mars Rover Curiosity in Buckskin Selfie",
+    "credit": "Credit: NASA/JPL-Caltech/MSSS / JPL",
+    "nasa_id": "PIA19808",
+    "link": "https://images.nasa.gov/details/PIA19808"
+  },
+  "s_iss": {
+    "file": "s_iss.jpg",
+    "title": "Earth Observation",
+    "credit": "Credit: NASA / JSC",
+    "nasa_id": "iss040e080833",
+    "link": "https://images.nasa.gov/details/iss040e080833"
+  },
+  "s_nebula": {
+    "file": "s_nebula.jpg",
+    "title": "James Webb Space Telescope NIRCam Image of the “Cosmic Cliffs” in Carina Nebula",
+    "credit": "Credit: NASA ESA CSA STScI / STScI (Webb)",
+    "nasa_id": "carina_nebula",
+    "link": "https://images.nasa.gov/details/carina_nebula"
+  },
+  "mars_garden": {
+    "file": "mars_garden.jpg",
+    "title": "Jezero Crater's Delta Is Getting Closer",
+    "credit": "Credit: NASA/JPL-Caltech/ASU/MSSS / JPL",
+    "nasa_id": "PIA25212",
+    "link": "https://images.nasa.gov/details/PIA25212"
+  }
+}
