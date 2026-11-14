@@ -255,43 +255,22 @@ Dark is the default and the original design. Light is optional: Sun/Moon button 
 
 ---
 
-## 8. Testing
+## 8. Known limitations / ideas
 
-`npm test` runs four suites without a browser: simulation (`sim`), game logic, NASA loader (cache and fallback logic with a fake `fetch`), content (translations, decision trade-offs, sources, built-in flares). The React UI has **no automated tests yet**; before a release, click through: Start -> every level -> a decision, a question, a mini-game -> Debrief, at 320 px, tablet and desktop widths, with "Less motion" on and off.
+The game has 5 Moon levels and 3 Mars levels. Offline mode / PWA is not implemented yet. UI has no automated tests. Beta translations need native review. The game balance is a teaching model, not an engineering simulation.
 
----
-
-## 9. Deploy
-
-`npm run build` -> upload `dist/` to Vercel / Netlify / GitHub Pages (`base: "./"`, so any sub-path works).
-**GitHub Pages:** `.github/workflows/deploy.yml` builds and publishes on every push to `main`. One-time setup: repository Settings -> Pages -> Source = **GitHub Actions** (the repository must be public on a free plan). The game then lives at `https://<user>.github.io/<repo>/`. Add the NASA key as an Actions secret named `VITE_NASA_API_KEY`. The workflow runs `npm test` first, so a broken build never goes live.
-**Key security:** `VITE_NASA_API_KEY` is embedded in the public JS. Use a free key you can rotate, or put the request behind a small serverless function. Never commit `.env` (it is git-ignored).
-
----
-
-## 10. Hackathon rules and honesty
-
-- Disclose AI assistance (Claude) in the submission, as required.
-- List NASA data used: DONKI and APOD (live), NASA Image and Video Library, BVAD, MOXIE, OSDR, RadLab, Mars Trek and other sources in `src/data/sources.ts`. APOD lives in `nasa/apod.ts` (cache 6 h; hidden if NASA has nothing, if the picture is copyrighted by someone else, or if it is a placeholder). The list of data sources for the presentation is in `docs/SUBMISSION.md`.
-- Facts flagged `verify: true` in the sources file must be checked before submitting (they show "(verify!)" in dev mode).
-- Do not show photos, video or voices of children under 18.
-
-## 11. Known limitations / ideas
-
-Mars levels are not built yet (`world: "mars"` is supported by the types). Offline mode / PWA is not implemented. UI has no automated tests. Beta translations need native review. The game balance is a teaching model, not an engineering simulation.
-
-## 12. Space Apps checklist (rules of the 2026 challenge)
+## 9. Space Apps checklist (rules of the 2026 challenge)
 
 Full, ready-to-paste texts for the submission form are in `docs/SUBMISSION.md`. Summary of the rules this project follows:
 
 - **Challenge fit:** a game where the player runs a Moon or Mars outpost and balances life support (air, water), radiation shielding, power and food, and sees why a mission succeeds or fails.
-- **Judging criteria** (Space Apps guide): Influence, Creativity, Validity, Relevance, Presentation. The mapping is in `docs/SUBMISSION.md`.
+- **Judging criteria** (Space Apps guide): Impact, Creativity, Validity, Relevance, Presentation. The mapping is in `docs/SUBMISSION.md`.
 - **NASA data** is required for a Global Award: DONKI (live), APOD (live), NASA Image and Video Library (photos), BVAD, OSDR, RadLab, Mars Trek, MOXIE. Every source is listed in `src/data/sources.ts`.
 - **Open license:** MIT (`LICENSE`). Photos and data stay under their owners' terms, with credits shown in the game.
 - **Use of AI (must be disclosed):** the code, texts and translations were written with the help of the AI assistant Claude (Anthropic) and then run, tested and reviewed by the team. Translations other than English and Ukrainian are machine made. No AI-generated images or video are used; photos are real NASA photos. The game does not use NASA logos or branding.
 - **Children:** no names, voices or faces of anyone under 18 are in the game or the submission. The player picks a nickname (random by default); nothing is sent to a server, progress stays in the browser.
 - **Cite every source** on the form, even if it is open (see `docs/SUBMISSION.md`).
 
-## 13. Communication delay (Mars)
+## 10. Communication delay (Mars)
 
 The challenge lists communication delay as one of the real constraints. In the game, "Radio Earth" costs 1 block. On the Moon the answer is immediate; on Mars the answer arrives on the **next sol** (a message needs minutes each way, see the NASA HRP source), so the player has to plan ahead. Implemented in `sim/engine.ts` (`State.help`, chain keys `radio_sent` / `radio_arrived`), covered by `tests/sim.test.ts`.
