@@ -259,18 +259,6 @@ Dark is the default and the original design. Light is optional: Sun/Moon button 
 
 The game has 5 Moon levels and 3 Mars levels. Offline mode / PWA is not implemented yet. UI has no automated tests. Beta translations need native review. The game balance is a teaching model, not an engineering simulation.
 
-## 9. Space Apps checklist (rules of the 2026 challenge)
-
-Full, ready-to-paste texts for the submission form are in `docs/SUBMISSION.md`. Summary of the rules this project follows:
-
-- **Challenge fit:** a game where the player runs a Moon or Mars outpost and balances life support (air, water), radiation shielding, power and food, and sees why a mission succeeds or fails.
-- **Judging criteria** (Space Apps guide): Impact, Creativity, Validity, Relevance, Presentation. The mapping is in `docs/SUBMISSION.md`.
-- **NASA data** is required for a Global Award: DONKI (live), APOD (live), NASA Image and Video Library (photos), BVAD, OSDR, RadLab, Mars Trek, MOXIE. Every source is listed in `src/data/sources.ts`.
-- **Open license:** MIT (`LICENSE`). Photos and data stay under their owners' terms, with credits shown in the game.
-- **Use of AI (must be disclosed):** the code, texts and translations were written with the help of the AI assistant Claude (Anthropic) and then run, tested and reviewed by the team. Translations other than English and Ukrainian are machine made. No AI-generated images or video are used; photos are real NASA photos. The game does not use NASA logos or branding.
-- **Children:** no names, voices or faces of anyone under 18 are in the game or the submission. The player picks a nickname (random by default); nothing is sent to a server, progress stays in the browser.
-- **Cite every source** on the form, even if it is open (see `docs/SUBMISSION.md`).
-
-## 10. Communication delay (Mars)
+## 9. Communication delay (Mars)
 
 The challenge lists communication delay as one of the real constraints. In the game, "Radio Earth" costs 1 block. On the Moon the answer is immediate; on Mars the answer arrives on the **next sol** (a message needs minutes each way, see the NASA HRP source), so the player has to plan ahead. Implemented in `sim/engine.ts` (`State.help`, chain keys `radio_sent` / `radio_arrived`), covered by `tests/sim.test.ts`.
